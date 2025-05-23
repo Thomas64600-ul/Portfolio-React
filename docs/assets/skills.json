@@ -1,47 +1,45 @@
 [
-    {
-      "category": "Langages",
-      "skills": [
-        {
-          "name": "HTML",
-          "logo":"/image/html.png"
-        },
-        {
-          "name": "CSS",
-          "logo": "/image/css.png"
-        },
-        {
-          "name": "JavaScript",
-          "logo":"/image/javascript.png"
-        }
-      ]
-    },
-    {
-      "category": "Frameworks & Librairies",
-      "skills": [
-        {
-          "name": "React",
-          "logo": "/image/react.png"
-        },
-        {
-          "name": "Bootstrap",
-          "logo": "/image/bootstrap.png"
-        }
-      ]
-    },
-    {
-      "category": "Outils",
-      "skills": [
-        {
-          "name": "Git",
-          "logo": "/image/git.png"
-        },
-        {
-          "name": "VS Code",
-          "logo": "/image/vscode.png"
-        }
-      ]
-    }
-  ]
-  
-  
+  {
+    "category": "Langages",
+    "skills": [
+      {
+        "name": "HTML",
+        "logo": "image/html.png" 
+      },
+      {
+        "name": "CSS",
+        "logo": "image/css.png" 
+      },
+      {
+        "name": "JavaScript",
+        "logo": "image/javascript.png" 
+      }
+    ]
+  },
+  {
+    "category": "Frameworks & Librairies",
+    "skills": [
+      {
+        "name": "React",
+        "logo": "image/react.png" 
+      },
+      {
+        "name": "Bootstrap",
+        "logo": "image/bootstrap.png" 
+      }
+    ]
+  },
+  {
+    "category": "Outils",
+    "skills": [
+      {
+        "name": "Git",
+        "logo": "image/git.png" 
+      },
+      {
+        "name": "VS Code",
+        "logo": "image/vscode.png" 
+      }
+    ]
+  }
+]

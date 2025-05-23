@@ -6,6 +6,7 @@ export default function Competences() {
   const [skillsData, setSkillsData] = useState([]);
 
   useEffect(() => {
+    // Assure-toi que ce chemin est correct : ./assets/skills.json
     fetch('./assets/skills.json')
       .then((res) => res.json())
       .then((data) => setSkillsData(data))
@@ -23,7 +24,8 @@ export default function Competences() {
               <div className="row row-cols-2 g-3">
                 {categorie.skills.map((skill, i) => (
                   <div key={i} className="col d-flex flex-column align-items-center skill">
-                    <img src={skill.logo} alt={skill.name} className="mb-2 skill-logo" />
+                    {/* C'EST LA SEULE ET UNIQUE LIGNE CORRECTE POUR L'IMAGE */}
+                    <img src={`${import.meta.env.BASE_URL}${skill.logo}`} alt={skill.name} className="mb-2 skill-logo" />
                     <p className="text-center mb-0">{skill.name}</p>
                   </div>
                 ))}

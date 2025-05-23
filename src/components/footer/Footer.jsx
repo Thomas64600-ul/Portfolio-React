@@ -12,11 +12,13 @@ const Footer = () => {
           className="mx-2"
         >
           <img
-            src="/image/github.png"
+          
+            src={`${import.meta.env.BASE_URL}image/github.png`}
             alt="GitHub"
             style={{ width: '32px', height: '32px' }}
           />
         </a>
+  
       </div>
       <p className="mb-0">© 2025 Mon Portfolio. Tous droits réservés.</p>
     </footer>

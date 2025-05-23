@@ -7,7 +7,7 @@ export default function Apropos() {
       <h2 className="fs-2 mb-4">À propos de moi</h2>
       
       <img
-        src="/image/avatar.png"
+        src={`${import.meta.env.BASE_URL}image/avatar.png`}
         alt="Photo de moi"
         className="rounded-circle border border-white p-2 shadow mb-4 mx-auto d-block"
         style={{ width: "200px", height: "200px", objectFit: "cover" }}
