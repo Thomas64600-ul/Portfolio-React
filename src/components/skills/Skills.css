@@ -1,0 +1,15 @@
+
+.skill-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.categorie {
+  background-color: #fdfdfd;
+  transition: transform 0.3s;
+}
+
+.categorie:hover {
+  transform: scale(1.02);
+}

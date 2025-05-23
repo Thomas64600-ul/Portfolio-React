@@ -1,0 +1,30 @@
+[
+  {
+    "type": "text",
+    "label": "Nom",
+    "name": "nom",
+    "required": true
+  },
+  {
+    "type": "text",
+    "label": "Prénom",
+    "name": "prenom",
+    "required": true
+  },
+  {
+    "type": "email",
+    "label": "Email",
+    "name": "email",
+    "required": true
+  },
+  {
+    "type": "textarea",
+    "label": "Message",
+    "name": "message",
+    "required": true
+  },
+  {
+    "type": "submit",
+    "value": "Envoyer"
+  }
+]

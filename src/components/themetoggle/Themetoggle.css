@@ -1,0 +1,41 @@
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.light {
+  background-color: #fdfdfd;
+  color: #121212;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+
+.darklight-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+
+body.light button {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+body.dark button {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}

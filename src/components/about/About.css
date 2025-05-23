@@ -1,0 +1,41 @@
+.apropos {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin: 20px auto;
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center; 
+  max-width: 900px;
+}
+
+.apropos-titre {
+  font-size: 2em;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.apropos-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  padding: 5px;
+  display: block; 
+}
+
+.apropos-description {
+  font-size: 1.2em;
+  color: white;
+  margin: 20px auto;
+  line-height: 1.5;
+  max-width: 800px;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

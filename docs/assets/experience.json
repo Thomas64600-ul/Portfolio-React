@@ -1,0 +1,27 @@
+[
+    {
+      "titre": "Formation Développeur Web",
+      "organisation": "Afec Bayonne",
+      "date": "2025",
+      "description": "Apprentissage du HTML, CSS, JavaScript, Git et projets pratiques."
+    },
+    {
+      "titre": "Technicien Logistique",
+      "organisation": "Entreprise de logistique",
+      "date": "2013 - 2024",
+      "description": "Expérience d'une dizaine d'années dans le domaine de la logistique."
+    },
+    {
+      "titre": "Technicien en méthode et exploitation logistique",
+      "organisation": "AFTIFIM Bayonne",
+      "date": "2013",
+      "description": "Apprentissage axé sur l'organisation, la gestion des flux et l'optimisation des opérations."
+    },
+    {
+      "titre": "Baccalauréat economique et social",
+      "organisation": "AFTIFIM Bayonne",
+      "date": "2013",
+      "description": "Baccalauréat général spécialité Mathématiques."
+    }
+    
+  ]

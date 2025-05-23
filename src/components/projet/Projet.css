@@ -1,0 +1,20 @@
+.projet-titre {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.projet-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.projet-card .card-body {
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
