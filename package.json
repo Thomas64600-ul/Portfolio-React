@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://Thomas64600-ul.github.io/Portfolio-React",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
